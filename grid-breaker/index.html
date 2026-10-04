@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grid Breaker</title>
+<meta name="description" content="Neon arcade dash game: slice through geometric enemies, break gold Cores and chain explosions for huge combos.">
+<style>
+  :root { --bg: #0A0E17; --surface: #1c1f29; --ink: #f2f6fa; --muted: #7c8da6; --cyan: #00F0FF; --gold: #FFD700; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; text-align: center; }
+  .icon { width: 200px; height: 200px; border-radius: 40px; box-shadow: 0 0 40px rgba(0, 240, 255, .25); }
+  h1 { margin: 20px 0 4px; font-size: 2.1rem; line-height: 1.2; letter-spacing: .04em; }
+  h1 span { color: var(--cyan); }
+  .tag { color: var(--gold); font-weight: 600; letter-spacing: .08em; margin: 0 0 16px; }
+  p { color: var(--muted); margin: 0 0 12px; }
+  .shots { display: flex; gap: 12px; justify-content: center; margin: 32px 0; }
+  .shots img { width: 31%; max-width: 200px; border-radius: 14px; border: 1px solid rgba(0, 240, 255, .25); }
+  ul { text-align: left; display: inline-block; color: var(--muted); margin: 0 0 24px; padding-left: 20px; }
+  li strong { color: var(--ink); }
+  .links { margin-top: 24px; }
+  a { color: var(--cyan); }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="Grid Breaker icon">
+  <h1>Grid <span>Breaker</span></h1>
+  <p class="tag">DASH. CHAIN. OVERDRIVE.</p>
+  <p>You are a node of light on a neon grid. Steer with one thumb, dash with the other, and slice through geometric enemies marching in strict formations. A dash that hits recharges instantly, so a good run never stops moving.</p>
+
+  <div class="shots">
+    <img src="01_dash_chain.jpg" alt="Dashing through a formation linked to a gold Core">
+    <img src="02_overdrive.jpg" alt="Overdrive: chain reaction with double points">
+    <img src="03_threats.jpg" alt="Late waves: laser links, pulsers and splitters">
+  </div>
+
+  <ul>
+    <li><strong>Break the gold Cores:</strong> every linked enemy nearby explodes in a chain reaction.</li>
+    <li><strong>Chain for multipliers</strong> up to x10, then fill the gold ring for <strong>Overdrive</strong>.</li>
+    <li><strong>Endless waves</strong> with splitters, laser links, pulsers and shielded Cores.</li>
+    <li><strong>One-minute training</strong>, two-thumb or one-thumb controls, colorblind outlines.</li>
+    <li><strong>Plays offline</strong>, no account needed.</li>
+  </ul>
+
+  <h2>Support</h2>
+  <p>Questions, bugs or feedback: <a href="mailto:buidan.infotech@gmail.com">buidan.infotech@gmail.com</a></p>
+  <p>Your best score and settings are saved on your device. Deleting the game deletes them.</p>
+
+  <p class="links"><a href="privacy.html">Privacy policy</a> · <a href="../">More games</a></p>
+</main>
+</body>
+</html>
